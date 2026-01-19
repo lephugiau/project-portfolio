@@ -1,0 +1,60 @@
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cột */
+  gap: 20px; /* khoảng cách giữa các ô */
+}
+.post-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;       /* số dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blog-posts {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px; 
+}
+.blog-posts .post {
+    border-bottom: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.blog-posts .post:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.blog-posts .post-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.blog-posts .post-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+    display: block;
+}
+.blog-posts .tag {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.blog-posts .post p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+.blog-posts .post a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.blog-posts .post a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,99 @@
+.header, .container, .skills, .contact-info {
+    background-color: white;
+    border-radius: 16px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    background-color: aqua;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 20px;
+    color: #666;
+}
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.hero button:hover {
+    background-color: #0056b3;
+}
+.hero button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* About Section */
+.about {
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills {
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.skills ul li {
+    background-color: #f4f4f4;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.skills ul li:hover {
+    background-color: #007BFF;
+    color: white;
+}
+.skills ul li:nth-child(4n+1){
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.skills ul li:nth-child(4n+2){
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+.skills ul li:nth-child(4n+3){
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.skills ul li:nth-child(4n+4){
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
