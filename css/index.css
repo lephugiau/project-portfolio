@@ -97,3 +97,51 @@
     color: white;
     font-weight: bold;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .hero button {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    .about {
+        padding: 20px;
+    }
+    .about img {
+        width: 120px;
+        height: 120px;
+    }
+    .skills {
+        padding: 20px;
+    }
+    .skills ul {
+        justify-content: center;
+    }
+    .skills ul li {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    .about img {
+        width: 130px;
+        height: 130px;
+    }
+}

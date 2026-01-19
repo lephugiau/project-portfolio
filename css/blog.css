@@ -58,3 +58,25 @@
 .blog-posts .post a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .post-list {
+        grid-template-columns: 1fr; /* 1 column on mobile */
+    }
+    .blog-posts {
+        padding: 15px;
+    }
+    .blog-posts .post {
+        padding: 10px;
+    }
+    .blog-posts .post-title {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .post-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablet */
+    }
+}

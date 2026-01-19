@@ -99,3 +99,41 @@ body {
 .contact-info ul li a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mini-title {
+        margin-left: 20px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo {
+        width: 100px;
+        height: 60px;
+    }
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .CTA {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .contact-info ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 0 15px;
+    }
+}
